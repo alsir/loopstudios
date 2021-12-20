@@ -76,8 +76,8 @@ ul img.logo{
 	position: absolute;
 	top: 2%;
 	left: 3%;
-	width: 36%;
-	height: 12%;
+	width: 41%;
+	height: 11%;
 }
 main h2{
 	text-align: left;
@@ -87,7 +87,7 @@ main h2{
 	border: 1px solid white;
 	margin: 10%;
 	margin-top: 40%;
-	letter-spacing: 6px;
+	letter-spacing: 4px;
 }
  div.big-img{
 	background-image: url(./images/mobile/image-interactive.jpg);
