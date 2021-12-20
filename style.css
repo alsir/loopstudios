@@ -11,6 +11,7 @@ body{
 	font-size: 18px;
 	font-family: 'Alata', sans-serif;
 	font-weight: 400;
+	overflow-x: hidden;
 }
 h2 , h3 , h4 , .see-more{
 	font-family: 'Josefin Sans', sans-serif;
@@ -29,9 +30,10 @@ header{
 }
 main img{
 	text-align: left;
-	width: 50%;
+	width: 42%;
 	padding: 5%;
-	margin-right: 32%;
+	margin-right: 50%;
+
 }
 main button{
 	position: absolute;
@@ -40,9 +42,42 @@ main button{
 	border: none;
 	right: 0%;
 	top: 27%;
+
 }
 main ul{
+	display: flex;
+	background-color: black;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	text-align: left;
+	padding: 20% 4% 20% 5%;
 	display: none;
+}
+ul li{
+  padding: 5% 5% 3% 5%;
+  width: 15%;
+  list-style: none;
+  margin-right: 80%;
+  margin-left: 10%;
+}
+li:hover{
+	border-bottom: 1px solid white;
+}
+ul button{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	width: 10%;
+}
+ul img.logo{
+	position: absolute;
+	top: 2%;
+	left: 3%;
+	width: 36%;
+	height: 12%;
 }
 main h2{
 	text-align: left;
@@ -51,6 +86,7 @@ main h2{
 	padding: 10%;
 	border: 1px solid white;
 	margin: 10%;
+	margin-top: 40%;
 	letter-spacing: 6px;
 }
  div.big-img{
@@ -95,6 +131,10 @@ button.see-more{
 	font-size: 1.3rem;
 
 }
+button.see-more:hover{
+	background-color: black;
+	color: white;
+}
 div.buttons{
 }
 .buttons button{
@@ -105,6 +145,16 @@ div.buttons{
 	color: white;
 	background-size: cover;
 	background-position: center;
+}
+.buttons button:hover{
+	background-color: white;
+	color: black;
+	opacity: 0.5;
+
+}
+,.buttons button h4:hover{
+	color: black;
+
 }
 .buttons button h4{
 	text-align: left;
@@ -155,9 +205,132 @@ footer .icons img{
 	margin-top: 3%;
 	margin-right: 4%;
 	margin-bottom: 3%;
+	padding-bottom: 1.5%;
 }
+footer .icons img:hover{
+	border-bottom: 1px solid white;
+}
+
 footer p{
 	margin: 7%;
 	margin-top: 3%;
 	 color: hsl(0, 0%, 41%);
+}
+@media (min-width: 600px){
+	main{
+		background-image: url(./images/desktop/image-hero.jpg);
+		height: 90vh;
+	}
+	header img{
+		width: 13% ;
+		padding: 0;
+		margin: 2.2%;
+		margin-left: -73%;
+	}
+	main h2{
+       font-size:3rem;
+       margin: 5% 50% 5% 5%;
+       padding: 3%;
+       line-height: 4rem;
+	}
+	div.big-img{
+	background-image: url(./images/desktop/image-interactive.jpg);
+	background-size: cover;
+	width: 45%;
+	height: 65vh;
+	margin: 5% 10% 8% 10%;
+    }
+    div.big-img-para{
+    	width: 40%;
+    	background-color: white;
+    	margin: -25% 10% 0 45%;
+    	padding-top: 2%;
+    }
+    .our{
+    	padding-bottom: 0;
+    	margin-bottom: 5%;
+    }
+    .our h3{
+    	font-size: 2.4rem;
+    	text-align: left;
+    	margin-left: 7%;
+    	margin-bottom: 1%;
+    }
+    .our button.see-more{
+    	top: 11%;
+    	width: 10%;
+    	right: 10%;
+    	font-size: 1.2rem;
+    }
+    div.buttons{
+    	display: flex;
+    	flex-direction: row;
+    	height: 75vh;
+    	width: 100%;
+    	padding: 3% 6% 0 6% ;
+    }
+    .buttons button{
+    	margin: 0.5%;
+    	padding: 1%;
+    	height: 100%;
+    }
+    .buttons button h4{
+    	padding: 120% 39% 5% 0;
+    }
+    .btn-1{
+	background-image: url(./images/desktop/image-deep-earth.jpg);
+	
+}
+.btn-2{
+	background-image: url(./images/desktop/image-night-arcade.jpg);
+}
+.btn-3{
+	background-image: url(./images/desktop/image-soccer-team.jpg);
+}
+.btn-4{
+	background-image: url(./images/desktop/image-grid.jpg);
+}
+.btn-5{
+	background-image: url(./images/desktop/image-from-above.jpg);
+}
+.btn-6{
+	background-image: url(./images/desktop/image-pocket-borealis.jpg);
+}
+.btn-7{
+	background-image: url(./images/desktop/image-curiosity.jpg);
+}
+.btn-8{
+	background-image: url(./images/desktop/image-fisheye.jpg);
+}
+footer{
+	display: flex;
+	flex-direction: row;
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	margin:8% 15% 2% 18%;
+}
+li{
+	padding-bottom: 1%;
+}
+li:hover{
+	border-bottom: 1px solid white;
+}
+.footer-copy{
+	display: flex;
+	flex-direction: column;
+	margin: 2% 2% 2% 40%;
+	padding: 0;
+	width: 60%;
+}
+.icons img{
+	margin-left: 3%;
+}
+footer p{
+	margin-bottom: 0;
+	margin-top: 10%;
+	padding: 0;
+	font-size: 1.2rem;
+}
 }

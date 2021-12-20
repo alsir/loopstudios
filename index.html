@@ -12,9 +12,11 @@
 <body>
   <main>
   <header>
-  <img src="./images/logo.svg" alt="logo">
-  <button> <img src="./images/icon-hamburger.svg"></button>
-  <ul>
+  <img  class="logo" src="./images/logo.svg" alt="logo">
+  <button id="first-button"> <img src="./images/icon-hamburger.svg"></button>
+  <ul id="menu">
+    <img class="logo" src="./images/logo.svg" alt="logo">
+    <button id="second-button"><img src="./images/icon-close.svg"></button>
    <li>About</li>
    <li>Careers</li>
    <li>Events</li>
@@ -26,7 +28,7 @@
 </main>
 <article>
   <div class="big-img"></div>
-  <div>
+  <div class="big-img-para">
   <h3>The leader in interactive VR</h3>
 
   <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
@@ -64,7 +66,7 @@
   <li>Support</li>
 </ul>
 </div>
-<div>
+<div class="footer-copy">
 <div class="icons">
   <img src="./images/icon-facebook.svg" alt="icon">
   <img src="./images/icon-twitter.svg" alt="icon">
@@ -74,5 +76,7 @@
   <p>© 2021 Loopstudios. All rights reserved.</p>
     </div>
 </footer>
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
