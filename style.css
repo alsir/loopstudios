@@ -53,11 +53,11 @@ main ul{
 	width: 100vw;
 	height: 100vh;
 	text-align: left;
-	padding: 20% 4% 20% 5%;
+	padding: 50% 4% 20% 5%;
 	display: none;
 }
 ul li{
-  padding: 5% 5% 3% 5%;
+  padding: 10% 5% 0 5%;
   width: 15%;
   list-style: none;
   margin-right: 80%;
