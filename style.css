@@ -262,6 +262,29 @@ footer p{
     	right: 10%;
     	font-size: 1.2rem;
     }
+	#first-button , #second-button{
+   	display: none;
+   }
+    main ul .logo{
+    	display: none;
+    }
+    main ul{
+    	background-color: inherit;
+    	display: flex;
+    	flex-direction: row;
+    	padding: 0;
+    	margin: 0 5% 6% 55%;
+    	width: 30%;
+    	height: 30%;
+    }
+    main ul li{
+    	padding: 0%;
+    	margin: 6%;
+    	padding-bottom: 0;
+    }
+    main ul li:hover{
+	border-bottom: 1px solid white;
+    }
     div.buttons{
     	display: flex;
     	flex-direction: row;
@@ -311,8 +334,10 @@ ul {
 	flex-direction: row;
 	margin:8% 15% 2% 18%;
 }
-li{
+ footer li{
 	padding-bottom: 1%;
+	margin-right: 5%;
+	padding: 3%;
 }
 li:hover{
 	border-bottom: 1px solid white;
