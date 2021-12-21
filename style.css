@@ -280,7 +280,7 @@ footer p{
     main ul li{
     	padding: 0%;
     	margin: 6%;
-    	padding-bottom: 0;
+    	padding-bottom: 10%;
     }
     main ul li:hover{
 	border-bottom: 1px solid white;
